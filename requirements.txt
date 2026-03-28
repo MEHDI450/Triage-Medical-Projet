@@ -1,0 +1,24 @@
+# ============================================================
+# Système de Triage Médical Multi-Agents — Dépendances
+# ============================================================
+
+# Interface Web
+streamlit>=1.35.0
+
+# Orchestration des Agents
+crewai>=0.51.0
+crewai-tools>=0.8.0
+
+# Modèle de Langage (Gemini)
+google-generativeai>=0.7.0
+langchain-google-genai>=1.0.6
+
+# Google Sheets
+gspread>=6.0.0
+google-auth>=2.29.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# Utilitaires
+python-dotenv>=1.0.0
+pydantic>=2.7.0
